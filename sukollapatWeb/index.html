@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PONDSTERLING</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logome.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="indexabout.html">ABOUT</a></li>
+                <li><a href="indexproject.html">PROJECT</a></li>
+                <li><a href="indexshop.html">SHOP</a></li>
+                <li><a href="indexcontact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+
+
+<div class="text-box">
+    <h1>PONDSTERLING</h1>
+    <p>มารู้จักเราให้มากขึ้น ผ่านเว็บไซต์นี้ ผมชื่อ Sukollapat ชื่อเล่น Pond</p>
+    <a href="" class="hero-btn">Visit Us to Know More</a>
+</div>
+
+</section>
+
+<section class="course">
+    <h1>เว็บไซต์นี้ คืออะไร</h1>
+    <p>ผมสร้างเว็บไวต์นี้ขึ้นมา โปรโมทงาน สินค้า และผลงานที่เคยทำครับ ทุกคนสามารถทำความรู้จักผมได้ผ่านเว็บไซต์นี้ครับ</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>การเริ่มต้น</h3>
+            <p>หากเราคิดที่จะเริ่มต้นมัน สิ่งต่างๆก็จะสามารถต่อต่อยอดไปได้เอง สร้างฝันของคุณ แล้วทำมัน ไม่มีสิ่งใดที่เราทำไม่ได้หากเราคิดที่จะทำมัน ความสำเร็จจะมาถึง ความคิดเล็กๆอาจนำไปสู่ความยิ่งใหญ่ในอนาคตที่คาดไม่ถึง</p>
+
+        </div>
+        <div class="course-col">
+            <h3>คำคมไอดอลของผม</h3>
+            <p>สตีฟ จ็อบส์ : "ถ้าคุณไม่รักมัน คุณก็จะล้มเหลว" คำคมนี้เป็นที่โด่งดัง และจดจำของคนทั่วโลกรวมถึงผมด้วย สตีฟ จ๊อบส์ เป็นคนที่มีความพยายามสูงเริ่มจากธุรกิจเล็ก จนปัจจุบันมีคนใช้ผลิตภัณฑ์ของเขาแพร่หลาย</p>
+
+        </div>
+        <div class="course-col">
+            <h3>แรงบันดาลใจ</h3>
+            <p>โปรแกรมเมอร์ อินฟลูอเนเซอร์ และ นักธุริกิจที่ประสบความสำเร็จในด้านต่างๆ ซึ่งทุกอาชีพมีจุดเด่นที่แตกต่างกันออกไป เราจึงควรให้ความสำคัญกับทุกสายอาชีพ ถ้าขาดอย่างใดไป ก็ไม่อาจสมบูรณ์ได้</p>
+
+        </div>
+
+    </div>
+</section>
+    
+<section class="campus">
+    <h1>ทำไม IT ถึงมีประโยนชน์</h1>
+    <p>การเรียนด้านเทคโนโลยี สามารถต่อยอดได้หลายสาขางาน</p>
+
+    <h1>ข่าวสารด้านไอที</h1>
+    <h1>ในอุปกรณ์มือถือหรือแทปเลทจอสัมผัส ให้กดค้างที่ภาพ และกด text เพื่อคลิกอ่านข่าว</h1>
+
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/news1.png">
+            <div class="layer">
+                <a href= "https://www.beartai.com/news/itnews/1271337"><h3>Google ทุ่มเงิน 700 ล้านพัฒนาการศึกษา</h3></a>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/news2.png">
+            <div class="layer">
+                <a href= "https://www.techhub.in.th/true-money-with-3-x-protection-by-ai/"><h3>True Money ยกระดับความปลอดภัย</h3></a>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/news3.png">
+            <div class="layer">
+                <a href= "https://www.sanook.com/hitech/1583119/"><h3>เปรียบเทียบ iPhone 13 และ 15</h3></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
